@@ -1,0 +1,14 @@
+2025-09-16T21:06:04Z INICIO: Configurador automático - release=v0.1
+2025-09-16T21:06:04Z Configuración actual: PORT=8080 MESSAGE="Sprint1 listo" RELEASE=v0.1 DNS_SERVER=8.8.8.8
+2025-09-16T21:06:04Z >>> Verificando HTTP (curl)...
+2025-09-16T21:06:04Z HTTP status: 200
+2025-09-16T21:06:04Z >>> Verificando DNS (dig)...
+2025-09-16T21:06:04Z dig returned:
+www.google.com.		106	IN	A	142.250.0.99
+www.google.com.		106	IN	A	142.250.0.105
+www.google.com.		106	IN	A	142.250.0.147
+www.google.com.		106	IN	A	142.250.0.104
+www.google.com.		106	IN	A	142.250.0.106
+www.google.com.		106	IN	A	142.250.0.103
+2025-09-16T21:06:04Z RESULTADO: Chequeos OK
+2025-09-16T21:06:04Z Finalizando — cleanup (si aplica).
