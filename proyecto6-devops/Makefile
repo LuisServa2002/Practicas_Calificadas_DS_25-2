@@ -1,8 +1,3 @@
-
----
-
-##  Makefile
-```makefile
 # Makefile Proyecto 6 - Sprint 1
 
 .PHONY: tools build test run clean help
