@@ -1,5 +1,4 @@
 # Bitácora - Sprint 01
-
 ## Objetivos del Sprint
 - Implementar un script en Bash (`main.sh`) que valide variables de entorno y realice pruebas de conectividad HTTP/DNS.
 - Crear pruebas automáticas con **Bats**.
@@ -8,10 +7,11 @@
 
 ---
 
-## Desarrollo
+## Desarrollo y ejecución
 
 ### 1. Configuración de variables de entorno
 Comandos ejecutados:
+Previamente debemos darle permisos mediante `chmod +x src/main.sh`
 ```bash
 export PORT=8080
 export MESSAGE="Sprint1 listo"
@@ -39,7 +39,7 @@ Se guarda la salida como evidencia en `out/run_sprint1.txt`.
 
 ### 3. Ejecución de pruebas automáticas (Bats)
 
-Utilizamos el comando : `bats tests/ | tee out/bats_results.txt`.
+Utilizamos el comando : `bats tests/ | tee out/bats_results.txt` ó `make test`.
 
 La salida será la siguiente:
 ```
@@ -58,3 +58,4 @@ ok 2 curl devuelve 200 en google.com
 - `make test` → pruebas Bats correctas.
 
 - `make clean` → limpia `out/` y `dist/`.
+
