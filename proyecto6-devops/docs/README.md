@@ -63,6 +63,6 @@ proyecto6-devops/
 │   └── utils_test.bats
 └── Makefile
 ```
-En este sprint agregamos una nueva variable de entorno `make package` que se encarga del empaquetado del release creando la carpeta `dist/` y simplificamos el código de `main.sh` dividiendo dichos códigos en la carpeta `lib/` para evitar que sea un orquestador.
+En este sprint agregamos una nueva variable de entorno `make package` que se encarga del empaquetado del release creando la carpeta `dist/` y simplificamos el código de `main.sh` dividiendo dichos códigos en la carpeta `lib/` para que sea un orquestador.
 
 
