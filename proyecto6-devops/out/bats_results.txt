@@ -1,3 +1,0 @@
-1..2
-ok 1 dig devuelve al menos un registro para google.com usando 8.8.8.8
-ok 2 curl devuelve 200 en google.com
