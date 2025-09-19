@@ -1,0 +1,63 @@
+src/main.sh: line 10: PORT: Variable PORT no definida
+%sn2025-09-18T15:16:06ZINICIO: Configurador automático (Sprint 2) - release=v1.0%sn2025-09-18T15:16:06ZConfiguración actual: PORT=8080 MESSAGE="Sprint 02 listo" RELEASE=v1.0 DNS_SERVER=8.8.8.8%sn2025-09-18T15:16:06Z>>> Verificando HTTP (curl)...%sn2025-09-18T15:16:06ZHTTP status: 200%sn2025-09-18T15:16:06Z>>> Verificando DNS (dig)...%sn2025-09-18T15:16:07Zdig returned:www.google.com.		86	IN	A	64.233.186.104
+www.google.com.		86	IN	A	64.233.186.106
+www.google.com.		86	IN	A	64.233.186.99
+www.google.com.		86	IN	A	64.233.186.105
+www.google.com.		86	IN	A	64.233.186.103
+www.google.com.		86	IN	A	64.233.186.147n%sn2025-09-18T15:16:07ZRESULTADO: Chequeos OK%sn2025-09-18T15:16:07ZFinalizando — cleanup (si aplica).src/main.sh: line 10: PORT: Variable PORT no definida
+2025-09-18T21:19:19Z INICIO: Configurador automático (Sprint 2) - release=v1.0
+2025-09-18T21:19:19Z Configuración actual: PORT=8080 MESSAGE="Sprint 02" RELEASE=v1.0 DNS_SERVER=8.8.8.8
+2025-09-18T21:19:19Z >>> Verificando HTTP (curl)...
+2025-09-18T21:19:19Z HTTP status=200 tiempo=0.214181s
+2025-09-18T21:19:19Z >>> Verificando DNS (dig)...
+2025-09-18T21:19:20Z dig returned:
+→ www.google.com. A 64.233.190.104
+→ www.google.com. A 64.233.190.103
+→ www.google.com. A 64.233.190.147
+→ www.google.com. A 64.233.190.106
+→ www.google.com. A 64.233.190.99
+→ www.google.com. A 64.233.190.105
+2025-09-18T21:19:20Z RESULTADO: Chequeos OK
+2025-09-18T21:19:20Z Finalizando — cleanup (si aplica).
+2025-09-18T21:26:43Z INICIO: Configurador automático (Sprint 2) - release=v1.0
+2025-09-18T21:26:43Z Configuración actual: PORT=8080 MESSAGE="Sprint 02" RELEASE=v1.0 DNS_SERVER=8.8.8.8
+2025-09-18T21:26:43Z >>> Verificando HTTP (curl)...
+2025-09-18T21:26:43Z HTTP status=200 tiempo=0.231207s
+2025-09-18T21:26:43Z >>> Verificando DNS (dig)...
+2025-09-18T21:26:43Z dig returned:
+→ www.google.com. A 64.233.186.103
+→ www.google.com. A 64.233.186.106
+→ www.google.com. A 64.233.186.147
+→ www.google.com. A 64.233.186.99
+→ www.google.com. A 64.233.186.105
+→ www.google.com. A 64.233.186.104
+2025-09-18T21:26:43Z RESULTADO: Chequeos OK
+2025-09-18T21:26:43Z Finalizando — cleanup (si aplica).
+2025-09-19T03:07:10Z INICIO: Configurador automático (Sprint 2) - release=v1.0
+2025-09-19T03:07:10Z Configuración actual: PORT=8080 MESSAGE="Entrega del Sprint 02" RELEASE=v1.0 DNS_SERVER=8.8.8.8
+2025-09-19T03:07:10Z >>> Verificando HTTP (curl)...
+2025-09-19T03:07:11Z HTTP status=200 tiempo=0.374447s
+2025-09-19T03:07:11Z >>> Verificando DNS (dig)...
+2025-09-19T03:07:11Z dig returned:
+→ www.google.com. A 142.251.0.104
+→ www.google.com. A 142.251.0.103
+→ www.google.com. A 142.251.0.106
+→ www.google.com. A 142.251.0.99
+→ www.google.com. A 142.251.0.147
+→ www.google.com. A 142.251.0.105
+2025-09-19T03:07:11Z RESULTADO: Chequeos OK
+2025-09-19T03:07:11Z Finalizando — cleanup (si aplica).
+2025-09-19T03:37:58Z INICIO: Configurador automático (Sprint 2) - release=v2.0
+2025-09-19T03:37:58Z Configuración actual: PORT=8080 MESSAGE="Entrega del Sprint 02" RELEASE=v2.0 DNS_SERVER=8.8.8.8
+2025-09-19T03:37:58Z >>> Verificando HTTP (curl)...
+2025-09-19T03:37:59Z HTTP status=200 tiempo=0.269129s
+2025-09-19T03:37:59Z >>> Verificando DNS (dig)...
+2025-09-19T03:37:59Z dig returned:
+→ www.google.com. A 172.217.192.103
+→ www.google.com. A 172.217.192.99
+→ www.google.com. A 172.217.192.104
+→ www.google.com. A 172.217.192.106
+→ www.google.com. A 172.217.192.147
+→ www.google.com. A 172.217.192.105
+2025-09-19T03:37:59Z RESULTADO: Chequeos OK
+2025-09-19T03:37:59Z Finalizando — cleanup (si aplica).
