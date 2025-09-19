@@ -1,0 +1,5 @@
+1..4
+ok 1 dig devuelve al menos un registro para google.com usando 8.8.8.8
+ok 2 curl devuelve 200 en google.com
+ok 3 log imprime mensaje con timestamp
+ok 4 trap maneja SIGINT ejecuta cleanup

@@ -1,0 +1,14 @@
+2025-09-19T23:00:34Z INICIO: Configurador automático (Sprint 03 Version 02) - release=v3.0
+2025-09-19T23:00:34Z Configuración actual: PORT=8080 MESSAGE="Sprint 03 listo" RELEASE=v3.0 DNS_SERVER=8.8.8.8
+2025-09-19T23:00:34Z >>> Verificando HTTP (curl)...
+2025-09-19T23:00:34Z HTTP status=200 tiempo=0.222500s
+2025-09-19T23:00:34Z >>> Verificando DNS (dig)...
+2025-09-19T23:00:34Z dig returned:
+→ www.google.com. A 172.217.192.99
+→ www.google.com. A 172.217.192.103
+→ www.google.com. A 172.217.192.106
+→ www.google.com. A 172.217.192.105
+→ www.google.com. A 172.217.192.104
+→ www.google.com. A 172.217.192.147
+2025-09-19T23:00:34Z RESULTADO: Chequeos OK
+2025-09-19T23:00:34Z Finalizando — cleanup (si aplica).
