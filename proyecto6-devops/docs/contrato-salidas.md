@@ -86,3 +86,30 @@ En el Sprint 02 se generaron:
  
 Estos elementos garantizan que el toolkit es **modular, probado y distribuible**.
 
+# Contrato de Salidas - Sprint 03
+
+## Archivos generados
+
+### 1. Resultados de pruebas
+- **Ubicación:** `out/bats_results_sprint3.txt`
+- **Formato:** texto plano con resultados Bats.
+- **Validación:** verificar que todas las pruebas estén en estado `ok`.
+
+### 2. Evidencia de ejecución
+- **Ubicación:** `out/run_sprint3.txt`
+- **Formato:** log con timestamp y resultados de HTTP/DNS.
+- **Validación:** revisar que aparezca `RESULTADO: Chequeos OK`.
+
+### 3. Trazabilidad
+- **Ubicación:** `out/trace.log`
+- **Formato:** texto plano acumulativo.
+- **Contenido:** fecha, release y archivo de log asociado.
+- **Validación:** cada nueva ejecución agrega una línea.
+
+### 4. Paquete reproducible
+- **Ubicación:** `dist/proyecto6-<versión>.tar.gz`
+- **Formato:** archivo comprimido `.tar.gz`
+- **Contenido:** `src/`, `tests/`, `docs/`, `Makefile`, `out/`.
+- **Validación:**
+  ```bash
+  tar -tzf dist/proyecto6-<versión>.tar.gz | head
