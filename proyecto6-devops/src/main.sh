@@ -19,7 +19,7 @@ source src/lib/dns.sh
 
 trap cleanup EXIT
 
-log "INICIO: Configurador automático (Sprint 2) - release=$RELEASE"
+log "INICIO: Configurador automático (Sprint 03) - release=$RELEASE"
 log "Configuración actual: PORT=$PORT MESSAGE=\"$MESSAGE\" RELEASE=$RELEASE DNS_SERVER=$DNS_SERVER"
 
 if test_http && test_dns; then
